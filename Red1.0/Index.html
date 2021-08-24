@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Amici</title>
+</head>
+<body>
+    <button class="icon-button e-dark-mode-button u-animation-click" id="darkMode" aria-label="Dark Mode"><span class="icon" aria-hidden="true">🌜</span></button>
+<div class="common-structure">
+  <header class="main-header u-flex">
+    <div class="start u-flex">
+       <a class="logo"><img src="img/Amci.jpg" alt="" srcset=""></a>
+       <div class="search-box-wrapper">
+         <input type="search" class="search-box" placeholder="Buscar en Amici">
+         <span class="icon-search" aria-label="hidden">🔎</span>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <ul class="main-nav-list u-flex">
+        <li class="main-nav-item u-only-wide"><a aria-label="Homepage" class="main-nav-button alt-text is-selected"><span class="icon" aria-hidden="true">🏠</span></a></li>
+        <li class="main-nav-item u-only-wide"><a aria-label="Pages" class="main-nav-button alt-text"><span class="icon" aria-hidden="true">🏁</span></a></li>
+        <li class="main-nav-item u-only-wide"><a aria-label="Watch" class="main-nav-button alt-text"><span class="icon" aria-hidden="true">📺</span></a></li>
+        <li class="main-nav-item u-only-wide"><a aria-label="Marketplace" class="main-nav-button alt-text"><span class="icon" aria-hidden="true">🏪</span></a></li>
+        <li class="main-nav-item u-only-wide"><a aria-label="Groups" class="main-nav-button alt-text"><span class="icon" aria-hidden="true">👨‍👦‍👦</span></a></li>
+        <li class="main-nav-item u-only-small"><button aria-label="Menu" class="main-nav-button u-animation-click" id="menuButton"><span class="icon icon-hamburger" aria-hidden="true"></span></button></li>
+      </ul>
+    </nav>
+    <div class="end"></div>
+  </header>
+  <nav class="user-nav">
+      <ul class="user-nav-list u-flex">
+        <li class="user-nav-item">
+          <a class="user">
+            <img class="user-image" src="img/User8.jpg" height="28" width="28" alt="">
+            <span class="user-name">Angie</span>
+          </a>
+        </li>
+        <li class="user-nav-item">
+          <button class="icon-button alt-text" aria-label="Create"><span class="icon" aria-hidden="true">➕</span></button>
+        </li>
+        <li class="user-nav-item">
+          <button class="icon-button alt-text" aria-label="Messenger"><span class="icon" aria-hidden="true">💬</span></button>
+        </li>
+        <li class="user-nav-item">
+          <button class="icon-button alt-text" aria-label="Notifications"><span class="icon" aria-hidden="true">🔔</span></button>
+        </li>
+        <li class="user-nav-item">
+          <button class="icon-button alt-text" aria-label="Account"><span class="icon" aria-hidden="true">🔻</span></button>
+        </li>
+      </ul>
+    </nav>
+  <aside class="side-a">
+    <section class="common-section">
+      <h2 class="section-title u-hide">User Navigation</h2>
+      <ul class="common-list">
+        <li class="common-list-item">
+          <a href="#" target="_blank" class="common-list-button">
+            <span class="icon">
+              <img class="user-image" src="img/User8.jpg" height="36" width="36" alt="">
+            </span>
+            <span class="text">Angie</span>
+          </a>
+        </li>
+        <li class="common-list-item">
+          <a class="common-list-button">
+<span class="icon" aria-hidden="true">💬</span>
+            <span class="text">Messenger</span>
+          </a>
+        </li>
+        <li class="common-list-item">
+          <a class="common-list-button">
+            <span class="icon">👨&zwj;👦&zwj;👦</span>
+            <span class="text">Groups</span>
+          </a>
+        </li>
+        <li class="common-list-item">
+          <a class="common-list-button">
+            <span class="icon">🏪</span>
+            <span class="text">Marketplace</span>
+          </a>
+        </li>
+        <li class="common-list-item">
+          <a class="common-list-button">
+            <span class="icon">📺</span>
+            <span class="text">Videos</span>
+          </a>
+        </li>
+      </ul>
+      <button class="common-more">
+        <span class="text">See More</span>
+        <span class="icon">🔻</span>
+      </button>
+    </section>
+    <section class="common-section">
+      <h2 class="section-title">Shortcuts</h2>
+      <ul class="common-list">
+        <li class="common-list-item">
+          <a href="#" target="_blank" class="common-list-button">
+            <span class="icon">
+              <img src="#" alt="">
+            </span>
+            <span class="text">CSS Masters Israel</span>
+          </a>
+        </li>
+        <li class="common-list-item">
+          <a href="#" target="_blank" class="common-list-button">
+            <span class="icon" aria-hidden="true">
+              <img src="#" alt="">
+            </span>
+            <span class="text">CSS Class</span>
+          </a>
+        </li>
+              
+      </ul>
+      <button class="common-more">
+        <span class="text">See More</span>
+        <span class="icon">🔻</span>
+      </button>
+    </section>
+  </aside>
+  <main class="main-feed">
+    <ul class="main-feed-list">
+      <li class="main-feed-item">
+        <article class="common-post">
+          <header class="common-post-header u-flex">
+            <img src="img/User.jpg" class="user-image" width="45" height="45" alt="User">
+            <div class="common-post-info">
+              <div class="user-and-group u-flex">
+                <a href="#" target="_blank">Ruth Yamileth</a>
+              </div>
+              <div class="time-and-privacy"><time datetime="">Agosto 25 a las 2:30 P.M</time><span class="icon icon-privacy">🌎</span></div>
+            </div>
+            <button class="icon-button-2 u-margin-inline-start" aria-label="more options"><span class="icon-menu"></span></button>
+          </header>
+          <div class="common-post-content common-content">
+            <p>
+              <b>Sigueme en mis otras redes:3</b><br> Instagram: <a href="https://www.instagram.com/_.ruuuuth/" target="_blank">@_.ruuuuth</a><br>
+              Facebook: <a href="https://www.facebook.com/ruth.quintanilla.716" target="_blank">Ruth Quintanilla</a>
+            </p>   
+          </div>
+          <div class="summary u-flex">
+            <div class="reactions">❤️</div>
+            <div class="reactions-total">141</div>
+            <div class="total-comments u-margin-inline-start">
+              <a>4 Compartidos</a>
+            </div>
+          </div>
+          <section class="actions-buttons">
+            <ul class="actions-buttons-list u-flex">
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">👍</span><span class="text">Like</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💬</span><span class="text">Comment</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💌</span><span class="text">Share</span></button></li>
+            </ul>
+          </section>
+        </article>
+      </li>
+      <li class="main-feed-item">
+        <article class="common-post">
+          <header class="common-post-header u-flex">
+            <img src="img/user2.jpg" class="user-image" width="45" height="45" alt="User">
+            <div class="common-post-info">
+              <div class="user-and-group u-flex">
+                <a href="#" target="_blank">Fernando Carrillo</a>
+              </div>
+              <div class="time-and-privacy"><time datetime="">Agosto 24 a las 7:21 PM</time><span class="icon icon-privacy">🌎</span></div>
+            </div>
+            <button class="icon-button-2 u-margin-inline-start" aria-label="more options"><span class="icon-menu"></span></button>
+          </header>
+          <div class="common-post-content common-content">
+            <p><b>La mente lo es todo, te conviertes en lo que piensas...</b></p>
+            <p>Tu tiempo es limitado, así que no lo desperdicies viviendo la vida de otra persona. </p><br>         
+              <img class="embed-content-image" src="img/Publicación3.jpg" alt="Publicación">           
+          </div>
+          <br>
+          <div class="summary u-flex">
+            <div class="reactions">❤️</div>
+            <div class="reactions-total">28</div>
+            <div class="total-comments u-margin-inline-start">
+              <a>12 Shares</a>
+            </div>
+          </div>
+          <section class="actions-buttons">
+            <ul class="actions-buttons-list u-flex">
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">👍</span><span class="text">Like</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💬</span><span class="text">Comment</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💌</span><span class="text">Share</span></button></li>
+            </ul>
+          </section>
+        </article>
+      </li>
+      <li class="main-feed-item">
+        <article class="common-post">
+          <header class="common-post-header u-flex">
+            <img src="img/User3.jpg" class="user-image" width="45" height="45" alt="User">
+            <div class="common-post-info">
+              <div class="user-and-group u-flex">
+                <a href="#" target="_blank">Jaime Sanchez</a>
+              </div>
+              <div class="time-and-privacy"><time datetime="">Agosto 23 a las 10:21 PM</time><span class="icon icon-privacy">🌎</span></div>
+            </div>
+            <button class="icon-button-2 u-margin-inline-start" aria-label="more options"><span class="icon-menu"></span></button>
+          </header>
+          <div class="common-post-content common-content">
+            <p><b>🎈🏀</b></p>
+            <p>Cuida tus pensamientos, porque se convertirán en tus palabras. Cuida tus palabras, porque se convertirán en tus actos. Cuida tus actos, porque se convertirán en tus hábitos. 
+               Cuida tus hábitos, porque se convertirán en tu destino</p>         
+              <img class="embed-content-image" src="img/Publicación4.jpg" alt="Publicación">
+              <br>
+          <div class="summary u-flex">
+            <div class="reactions">❤️</div>
+            <div class="reactions-total">205</div>
+            <div class="total-comments u-margin-inline-start">
+              <a>5 Shares</a>
+            </div>
+          </div>
+          <section class="actions-buttons">
+            <ul class="actions-buttons-list u-flex">
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">👍</span><span class="text">Like</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💬</span><span class="text">Comment</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💌</span><span class="text">Share</span></button></li>
+            </ul>
+          </section>
+        </article>
+      </li>
+      <li class="main-feed-item">
+        <article class="common-post">
+          <header class="common-post-header u-flex">
+            <img src="img/User4.jpg" class="user-image" width="45" height="45" alt="User">
+            <div class="common-post-info">
+              <div class="user-and-group u-flex">
+                <a href="#" target="_blank">Elvis Wilfredo</a>
+                <span class="icon icon-arrow-block-end"></span>
+                <a href="#" target="_blank">CSS Class</a>
+              </div>
+              <div class="time-and-privacy"><time datetime="">Agosto 25 a las 3:51 AM</time><span class="icon icon-privacy">🌎</span></div>
+            </div>
+            <button class="icon-button-2 u-margin-inline-start" aria-label="more options"><span class="icon-menu"></span></button>
+          </header>
+          <div class="common-post-content common-content">
+            <p><b>Temazo</b></p>
+            <p><br>
+              Fue en un café...☕<br>
+            </p>
+            <a class="embed-content" href="https://youtu.be/1MGtuVdZdU0" target="_blank">
+              <img class="embed-content-image" src="img/café.jpg" alt="Publicación">
+              <div class="embed-content-text">
+                <aside class="embed-content-info"><span class="text"></span></aside>
+                <h3 class="embed-content-title">fue en un cafe - los apson.</h3>
+                <p>fue en un cafe donde yo la deje</p>
+              </div>
+            </a>    
+          </div>
+          <div class="summary u-flex">
+            <div class="reactions">❤️</div>
+            <div class="reactions-total">68</div>
+            <div class="total-comments u-margin-inline-start">
+              <a>1 Shares</a>
+            </div>
+          </div>
+          <section class="actions-buttons">
+            <ul class="actions-buttons-list u-flex">
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">👍</span><span class="text">Like</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💬</span><span class="text">Comment</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💌</span><span class="text">Share</span></button></li>
+            </ul>
+          </section>
+        </article>
+      </li>
+      
+      <li class="main-feed-item">
+        <article class="common-post">
+          <header class="common-post-header u-flex">
+            <img src="img/User5.jpg" class="user-image" width="45" height="45" alt="">
+            <div class="common-post-info">
+              <div class="user-and-group u-flex">
+                <a href="#" target="_blank">Carlos Alirio</a>
+                <span class="icon icon-arrow-block-end"></span>
+                <a href="#" target="_blank">CSS Class</a>
+              </div>
+              <div class="time-and-privacy"><time datetime="">June 3 at 12:26 PM</time><span class="icon icon-privacy">🌎</span></div>
+            </div>
+            <button class="icon-button-2 u-margin-inline-start" aria-label="more options"><span class="icon-menu"></span></button>
+          </header>
+          <div class="common-post-content common-content">
+            <p><b>The ‘unset’ keywords behave</b> like 'inherit' if the property is a property that has natural inherit by default, and act like 'initial' if it hasn’t.<p>
+            <p>The reason for it to exists is to reset all properties together with the ‘all’ property.</p>
+            <p><b>From my Talk:</b><br>
+              <a href="#" target="_blank">Cursos</a></p>
+            <img src="" alt="">
+          </div>
+          <div class="summary u-flex">
+            <div class="reactions">❤️</div>
+            <div class="reactions-total">8</div>
+            <div class="total-comments u-margin-inline-start">
+              <a>12 Comments</a>
+              <a>2 Shares</a>
+            </div>
+          </div>
+          <section class="actions-buttons">
+            <ul class="actions-buttons-list u-flex">
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">👍</span><span class="text">Like</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💬</span><span class="text">Comment</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💌</span><span class="text">Share</span></button></li>
+            </ul>
+          </section>
+        </article>
+      </li>
+      <li class="main-feed-item">
+        <article class="common-post">
+          <header class="common-post-header u-flex">
+            <img src="img/User6.jpg" class="user-image" width="45" height="45" alt="User">
+            <div class="common-post-info">
+              <div class="user-and-group u-flex">
+                <a href="#" target="_blank">CSS Class</a>
+              </div>
+              <div class="time-and-privacy"><time datetime="">May 18 at 5:58 PM</time><span class="icon icon-privacy">🌎</span></div>
+            </div>
+            <button class="icon-button-2 u-margin-inline-start" aria-label="more options"><span class="icon-menu"></span></button>
+          </header>
+          <div class="common-post-content common-content">
+            <p><b>Programador de nacimiento </b></p><br>
+            <p>El software es como el sexo, cuando es gratis es mejor...💻</p><br>
+              <img class="embed-content-image" src="img/Soft.jpg" alt="Publicación"><br>
+            </a>      
+          </div>
+          <div class="summary u-flex">
+            <div class="reactions">😲❤️</div>
+            <div class="reactions-total">16</div>
+            <div class="total-comments u-margin-inline-start">
+              <a>5 Shares</a>
+            </div>
+          </div>
+          <section class="actions-buttons">
+            <ul class="actions-buttons-list u-flex">
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">👍</span><span class="text">Like</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💬</span><span class="text">Comment</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💌</span><span class="text">Share</span></button></li>
+            </ul>
+          </section>
+        </article>
+      </li>
+      <li class="main-feed-item">
+        <article class="common-post">
+          <header class="common-post-header u-flex">
+            <img src="img/User6.jpg" class="user-image" width="45" height="45" alt="User">
+            <div class="common-post-info">
+              <div class="user-and-group u-flex">
+                <a href="#" target="_blank">Mariana Paola</a>
+              </div>
+              <div class="time-and-privacy"><time datetime="">May 18 at 5:58 PM</time><span class="icon icon-privacy">🌎</span></div>
+            </div>
+            <button class="icon-button-2 u-margin-inline-start" aria-label="more options"><span class="icon-menu"></span></button>
+          </header>
+          <div class="common-post-content common-content">
+            <p><b>....... </b></p><br>
+            <p>La imagen de abajo es el post(lo guardas en la carpeta img)</p><br>
+              <img class="embed-content-image" src="img/Soft.jpg" alt="Publicación"><br>
+            </a>      
+          </div>
+          <div class="summary u-flex">
+            <div class="reactions">😲❤️</div>
+            <div class="reactions-total">16</div>
+            <div class="total-comments u-margin-inline-start">
+              <a>5 Shares</a>
+            </div>
+          </div>
+          <section class="actions-buttons">
+            <ul class="actions-buttons-list u-flex">
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">👍</span><span class="text">Like</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💬</span><span class="text">Comment</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💌</span><span class="text">Share</span></button></li>
+            </ul>
+          </section>
+        </article>
+      </li>
+      <li class="main-feed-item">
+        <article class="common-post">
+          <header class="common-post-header u-flex">
+            <img src="img/User7.jpg" class="user-image" width="40" height="40" alt="">
+            <div class="common-post-info">
+              <div class="user-and-group u-flex">
+                <a href="#" target="_blank">Daniela Soriano</a>
+              </div>
+              <div class="time-and-privacy"><time datetime="">April 1</time><span class="icon icon-privacy">🌎</span></div>
+            </div>
+            <button class="icon-button-2 u-margin-inline-start" aria-label="more options"><span class="icon-menu"></span></button>
+          </header>
+          <div class="common-post-content common-content">
+              <img class="embed-content-image" src="#" alt="">
+          </div>
+          <div class="summary u-flex">
+            <div class="reactions">😲</div>
+            <div class="reactions-total">9</div>
+            <div class="total-comments u-margin-inline-start">
+              <a>5 Comments</a>
+              <a>1 Shares</a>
+            </div>
+          </div>
+          <section class="actions-buttons">
+            <ul class="actions-buttons-list u-flex">
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">👍</span><span class="text">Like</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💬</span><span class="text">Comment</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💌</span><span class="text">Share</span></button></li>
+            </ul>
+          </section>
+        </article>
+      </li>
+      <li class="main-feed-item">
+        <article class="common-post">
+          <header class="common-post-header u-flex">
+            <img src="img/User8.jpg" class="user-image" width="45" height="45" alt="Publicación">
+            <div class="common-post-info">
+              <div class="user-and-group u-flex">
+                <a href="#" target="_blank">Angie De mi culito fer</a>
+              </div>
+              <div class="time-and-privacy"><time datetime="">March 11</time><span class="icon icon-privacy">🌎</span></div>
+            </div>
+            <button class="icon-button-2 u-margin-inline-start" aria-label="more options"><span class="icon-menu"></span></button>
+          </header>
+          <div class="common-post-content common-content">
+            <p>Programacion con css xd.</p>            
+              <img class="embed-content-image" src="#" alt="">
+          </div>
+          <div class="summary u-flex">
+            <div class="reactions">👍❤️</div>
+            <div class="reactions-total">7</div>
+            <div class="total-comments u-margin-inline-start">
+              <a>57 Comments</a>
+              <a>8 Shares</a>
+            </div>
+          </div>
+          <section class="actions-buttons">
+            <ul class="actions-buttons-list u-flex">
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">👍</span><span class="text">Like</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💬</span><span class="text">Comment</span></button></li>
+              <li class="actions-buttons-item"><button class="actions-buttons-button"><span class="icon">💌</span><span class="text">Share</span></button></li>
+            </ul>
+          </section>
+        </article>
+      </li>
+    </ul>
+  </main>
+  <aside class="side-b">
+    <section class="common-section">
+      <h2 class="section-title">Sponsored</h2>
+      <ul class="common-list">
+        <li class="common-list-item">
+          <a href="#" target="_blank" class="common-list-button is-ads">
+            <div class="image"><img src="https://bit.ly/3cY5ncE" width="115" alt=""></div>
+            <div class="text">
+              <h4 class="ads-title">Export Sketch to HTML with a click</h4>
+              <p class="ads-url">animaapp.com</p>
+            </div>
+          </a>
+        </li>
+        <li class="common-list-item">
+          <a href="#" target="_blank" class="common-list-button is-ads">
+            <div class="image"><img src="https://cssclasscom.files.wordpress.com/2020/06/14.png?w=300" width="115" alt=""></div>
+            <div class="text">
+              <h4 class="ads-title">Front-end developers, prepare to be amazed</h4>
+              <p class="ads-url">animaapp.com</p>
+            </div>
+          </a>
+        </li>      
+      </ul>
+      <button class="common-more">
+        <span class="text">See More</span>
+        <span class="icon">🔻</span>
+      </button>
+    </section>
+  </aside>
+</div>
+</body>
+<script>
+  $(document).ready(function() {
+    $("#menuButton").on("click", function(){
+        $(".side-a").toggleClass("is-open");
+        $("html").toggleClass("is-nav-open");
+    });
+      $("#darkMode").on("click", function(){
+        $("html").toggleClass("is-dark");
+    })
+});
+
+
+
+</script>
+</html>
